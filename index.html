@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sensi Studio — BGMI & PUBG Sensitivity Calibrator</title>
+  <meta name="description" content="Official website of Sensi Studio by YourGamingPartner. Precision BGMI & PUBG Mobile sensitivity calibrator, Pro Legends Lab, and 30-Day Elite Bootcamp." />
+  <style>
+    :root {
+      --bg: #070a10;
+      --card: #0e1420;
+      --border: #243045;
+      --gold: #ffc107;
+      --gold-soft: #ffe082;
+      --cyan: #22d3ee;
+      --green: #22c55e;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: radial-gradient(circle at top, #131c2e 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px 18px 64px; }
+    header {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+      gap: 12px; padding: 14px 0 28px; border-bottom: 1px solid var(--border);
+    }
+    .brand { font-weight: 800; font-size: 1.15rem; letter-spacing: 0.8px; color: var(--gold); }
+    .brand span { color: var(--text); font-weight: 600; font-size: 0.9rem; display: block; color: var(--muted); }
+    nav a {
+      color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 0.92rem; font-weight: 600;
+    }
+    nav a:hover { color: var(--gold); }
+    .hero { text-align: center; padding: 48px 10px 36px; }
+    .pill {
+      display: inline-block; padding: 5px 14px; border-radius: 999px;
+      border: 1px solid rgba(255, 193, 7, 0.45); background: rgba(255, 193, 7, 0.1);
+      color: var(--gold-soft); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.6px;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; margin-bottom: 14px; }
+    h1 span { color: var(--gold); }
+    .subtitle { max-width: 650px; margin: 0 auto 28px; color: var(--muted); font-size: 1.05rem; }
+    .cta-btn {
+      display: inline-block; padding: 14px 28px; border-radius: 10px;
+      background: linear-gradient(135deg, #ffe082, #ffc107, #d99100);
+      color: #090c12; font-weight: 800; text-decoration: none; font-size: 1rem;
+      letter-spacing: 0.4px; box-shadow: 0 8px 24px rgba(255, 193, 7, 0.25);
+    }
+    .cta-btn:hover { filter: brightness(1.06); }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px; margin: 36px 0 48px;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px;
+    }
+    .card h3 { color: var(--gold-soft); font-size: 1.05rem; margin-bottom: 8px; }
+    .card p { color: var(--muted); font-size: 0.93rem; }
+    section.policy {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px 24px; margin-top: 24px;
+    }
+    section.policy h2 { color: var(--cyan); font-size: 1.4rem; margin-bottom: 12px; }
+    section.policy h3 { color: var(--text); font-size: 1.02rem; margin: 18px 0 6px; }
+    section.policy p, section.policy li { color: var(--muted); font-size: 0.94rem; }
+    section.policy ul { padding-left: 20px; margin-top: 6px; }
+    a.link { color: var(--cyan); text-decoration: none; }
+    a.link:hover { text-decoration: underline; }
+    footer {
+      text-align: center; margin-top: 44px; padding-top: 22px;
+      border-top: 1px solid var(--border); color: var(--muted); font-size: 0.86rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        ⚡ SENSI STUDIO
+        <span>by YourGamingPartner</span>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#privacy-policy">Privacy Policy</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="pill">OFFICIAL ANDROID APP • BGMI &amp; PUBG MOBILE</div>
+        <h1>Dial In <span>Zero-Recoil</span> Sensitivity &amp; Pro Muscle Memory</h1>
+        <p class="subtitle">
+          Precision device-aware sensitivity calibration, Pro Legends recoil presets,
+          weapon spray curves, and a structured 30-Day Elite Bootcamp built for competitive mobile players.
+        </p>
+        <a class="cta-btn" href="https://play.google.com/store/apps/details?id=com.aistudio.recoilsense.aiyzk" target="_blank" rel="noopener">
+          ▶ Get Sensi Studio on Google Play
+        </a>
+      </section>
+
+      <section id="features" class="grid">
+        <div class="card">
+          <h3>🎯 Device Calibrator</h3>
+          <p>Calculates Camera, ADS, Gyroscope, and ADS Gyro sensitivities tailored to your screen size, FPS, grip style, and playstyle.</p>
+        </div>
+        <div class="card">
+          <h3>⚡ Pro Lab &amp; Gun Curves</h3>
+          <p>Explore 12 Pro Legend profiles, weapon-specific recoil curves, and thermal-tuned overclock adjustments.</p>
+        </div>
+        <div class="card">
+          <h3>🏆 30-Day Elite Bootcamp</h3>
+          <p>Daily structured drills, HUD/Gyro audits, reflex tracking, and progress roadmaps from Day 1 to Conqueror readiness.</p>
+        </div>
+        <div class="card">
+          <h3>🛡️ One-Time Lifetime Passes</h3>
+          <p>Transparent one-time Google Play purchases with no subscriptions — or try gated tools via optional rewarded video ads.</p>
+        </div>
+      </section>
+
+      <section id="privacy-policy" class="policy">
+        <h2>Privacy Policy</h2>
+        <p><strong>Effective Date:</strong> November 2026 &nbsp;|&nbsp; <strong>Developer:</strong> YourGamingPartner</p>
+        <p style="margin-top:10px;">
+          Sensi Studio ("the App") is a standalone sensitivity calibration and training companion utility for Android.
+          We respect your privacy and collect minimal data strictly required for advertising and purchase verification.
+        </p>
+
+        <h3>1. Local On-Device Storage</h3>
+        <p>
+          Your saved sensitivity profiles (Arsenal Vault) and 30-Day Bootcamp Cadet progress are stored locally on your Android device.
+          We do not operate personal user accounts or upload your saved profiles to external servers.
+        </p>
+
+        <h3>2. Advertising (Google AdMob) &amp; Consent</h3>
+        <p>
+          The free tier displays banner, interstitial, and optional rewarded ads served by Google AdMob.
+          Google AdMob may collect device identifiers (such as the Advertising ID), coarse diagnostic signals, and ad interaction metrics
+          in accordance with <a class="link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+          Users in the EEA/UK can review or update their ad privacy choices anytime inside the App via Settings → Privacy Policy.
+          Purchasing the Ad-Free Pass or Ultimate Conqueror Combo permanently disables banner and interstitial ads.
+        </p>
+
+        <h3>3. In-App Purchases (Google Play Billing)</h3>
+        <p>
+          All optional one-time passes are processed securely by Google Play Billing. We never see, process, or store your payment card, UPI, or banking details.
+        </p>
+
+        <h3>4. Independent Utility Disclaimer</h3>
+        <p>
+          Sensi Studio is an independent fan-made utility and training tool. It is not affiliated with, endorsed by, or officially connected to
+          Krafton, Inc., Level Infinite, Tencent Games, BGMI, or PUBG Mobile. The App does not modify game files or inject memory.
+        </p>
+
+        <h3 id="support">5. Support &amp; Contact</h3>
+        <p>
+          For support, purchase restoration help, or privacy inquiries, email us at:<br />
+          <a class="link" href="mailto:yourgamingpartner.sensistudio@gmail.com">yourgamingpartner.sensistudio@gmail.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Sensi Studio by YourGamingPartner •
+      <a class="link" href="/app-ads.txt">app-ads.txt</a> •
+      <a class="link" href="mailto:yourgamingpartner.sensistudio@gmail.com">Contact Support</a>
+    </footer>
+  </div>
+</body>
+</html>
